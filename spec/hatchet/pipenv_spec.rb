@@ -9,8 +9,8 @@ RSpec.shared_examples 'builds using Pipenv with the requested Python version' do
         remote: -----> Python app detected
         remote: -----> Using Python version specified in Pipfile.lock
         remote: -----> Installing python-#{python_version}
-        remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-        remote: -----> Installing dependencies with Pipenv 2020.11.15
+        remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+        remote: -----> Installing dependencies with Pipenv 2022.10.12
         remote:        Installing dependencies from Pipfile.lock \\(.*\\)...
         remote: -----> Installing SQLite3
       REGEX
@@ -43,8 +43,8 @@ RSpec.describe 'Pipenv support' do
           remote: -----> No Python version was specified. Using the buildpack default: python-#{DEFAULT_PYTHON_VERSION}
           remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
           remote: -----> Installing python-#{DEFAULT_PYTHON_VERSION}
-          remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-          remote: -----> Installing dependencies with Pipenv 2020.11.15
+          remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+          remote: -----> Installing dependencies with Pipenv 2022.10.12
           remote:        Installing dependencies from Pipfile...
           remote: -----> Installing SQLite3
         OUTPUT
@@ -62,8 +62,8 @@ RSpec.describe 'Pipenv support' do
           remote: -----> No Python version was specified. Using the buildpack default: python-#{DEFAULT_PYTHON_VERSION}
           remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
           remote: -----> Installing python-#{DEFAULT_PYTHON_VERSION}
-          remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-          remote: -----> Installing dependencies with Pipenv 2020.11.15
+          remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+          remote: -----> Installing dependencies with Pipenv 2022.10.12
           remote:        Installing dependencies from Pipfile.lock (aad8b1)...
           remote: -----> Installing SQLite3
         OUTPUT
@@ -161,7 +161,7 @@ RSpec.describe 'Pipenv support' do
             remote:  !     
             remote: -----> Installing python-#{LATEST_PYTHON_3_6}
             remote: -----> Installing pip 21.3.1, setuptools 59.6.0 and wheel 0.37.1
-            remote: -----> Installing dependencies with Pipenv 2020.11.15
+            remote: -----> Installing dependencies with Pipenv 2022.10.12
             remote:        Installing dependencies from Pipfile.lock (b8b71b)...
             remote: -----> Installing SQLite3
           OUTPUT
@@ -235,8 +235,8 @@ RSpec.describe 'Pipenv support' do
           remote:  !     See: https://devcenter.heroku.com/articles/python-runtimes
           remote:  !     
           remote: -----> Installing python-3.10.4
-          remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-          remote: -----> Installing dependencies with Pipenv 2020.11.15
+          remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+          remote: -----> Installing dependencies with Pipenv 2022.10.12
           remote:        Installing dependencies from Pipfile.lock (e047bc)...
           remote: -----> Installing SQLite3
         OUTPUT
@@ -284,8 +284,8 @@ RSpec.describe 'Pipenv support' do
           remote: -----> Python app detected
           remote: -----> Using Python version specified in runtime.txt
           remote: -----> Installing python-#{LATEST_PYTHON_3_10}
-          remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-          remote: -----> Installing dependencies with Pipenv 2020.11.15
+          remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+          remote: -----> Installing dependencies with Pipenv 2022.10.12
           remote:        Installing dependencies from Pipfile.lock (75eae0)...
           remote: -----> Installing SQLite3
         OUTPUT
@@ -302,8 +302,8 @@ RSpec.describe 'Pipenv support' do
           remote: -----> Python app detected
           remote: -----> Using Python version specified in Pipfile.lock
           remote: -----> Installing python-#{LATEST_PYTHON_3_10}
-          remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-          remote: -----> Installing dependencies with Pipenv 2020.11.15
+          remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+          remote: -----> Installing dependencies with Pipenv 2022.10.12
           remote:        Installing dependencies from Pipfile.lock (2d32e8)...
           remote: -----> Installing SQLite3
         OUTPUT
@@ -321,8 +321,8 @@ RSpec.describe 'Pipenv support' do
           remote: -----> No Python version was specified. Using the buildpack default: python-#{DEFAULT_PYTHON_VERSION}
           remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
           remote: -----> Installing python-#{DEFAULT_PYTHON_VERSION}
-          remote: -----> Installing pip 22.2.2, setuptools 63.4.3 and wheel 0.37.1
-          remote: -----> Installing dependencies with Pipenv 2020.11.15
+          remote: -----> Installing pip 22.2.2, setuptools 65.5.0 and wheel 0.37.1
+          remote: -----> Installing dependencies with Pipenv 2022.10.12
           remote:        Your Pipfile.lock \\(aad8b1\\) is out of date. Expected: \\(2d32e8\\).
           remote:        \\[DeployException\\]: .*
           remote:        ERROR:: Aborting deploy
